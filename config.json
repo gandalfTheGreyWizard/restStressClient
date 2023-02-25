@@ -1,0 +1,22 @@
+{
+  "config": {
+    "headers": {
+      "headerA": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBZ2VudE5hbWUiOiJjbGkiLCJUb2tlbklkIjoiMSIsIkFnZW50Um9sZSI6WyJhZG1pbiJdLCJVc2VyUHJveHkiOiJubyIsImRlbHRhU2Vjb25kcyI6MjU5MjAwMCwiVG9rZW5FeHBpcnkiOiIyMDIzLTAzLTI1VDA2OjAzOjA5LjEyMloiLCJpYXQiOjE2NzcxMzIxODksImV4cCI6MTY3NzEzMjI0OX0.wPR3IjGIjgkfrOB7WEV1Ydoze38q1j_qJY_H5ZgCc3g"
+      }
+    }
+  },
+  "requests": [
+    {
+      "type": "get",
+      "url": "http://localhost:3000/api/v1/mswipe/streams",
+      "headers": "headerA"
+    },
+    {
+      "type": "get",
+      "url": "http://localhost:3000/api/v1/mswipe/new_index/info",
+      "headers": "headerA"
+    }
+  ]
+}
