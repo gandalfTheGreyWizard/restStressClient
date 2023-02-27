@@ -10,12 +10,17 @@
   "requests": [
     {
       "type": "get",
-      "url": "http://localhost:3000/api/v1/mswipe/streams",
+      "url": "https://catalogue2.stg.datasutram.com/api/v1/general/pincode_shape/india/0/0/grains",
       "headers": "headerA"
     },
     {
       "type": "get",
-      "url": "http://localhost:3000/api/v1/mswipe/new_index/info",
+      "url": "https://catalogue2.stg.datasutram.com/api/v1/general/pincode_shape/india/0/0/400076/package-dates",
+      "headers": "headerA"
+    },
+    {
+      "type": "get",
+      "url": "https://catalogue2.stg.datasutram.com/api/v1/general/pincode_shape/india/0/0/400076/2022-08-26/data",
       "headers": "headerA"
     }
   ]
