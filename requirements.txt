@@ -1,6 +1,15 @@
 certifi==2022.12.7
 charset-normalizer==3.0.1
+dill==0.3.6
 idna==3.4
+multiprocess==0.70.14
+p-tqdm==1.4.0
+pathos==0.3.0
+pox==0.3.2
+ppft==1.7.6.6
+pydash==6.0.2
 pyspark==3.3.0
 requests==2.28.2
+six==1.16.0
+tqdm==4.64.1
 urllib3==1.26.14
