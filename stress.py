@@ -37,12 +37,14 @@ class Stress:
         print(response_objects)
 
 class Utils:
+    def __init__(self):
+        self.session = requests.Session()
     def get_request(self, url, req_headers):
-        request_obj = requests.get(url, headers=req_headers)
+        request_obj = self.session.get(url, headers=req_headers)
         return request_obj
         # logger.info(response_dict)
     def post_request(self, url, body, headers):
-        request_obj = requests.post(url, body, headers)
+        request_obj = self.session.post(url, body, headers)
         return request_obj
         # logger.info(response_dict)
     def process_requests(self, each_request_object):
